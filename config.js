@@ -40,9 +40,9 @@ module.exports = {
   OPENAI_API_KEY = process.env.OPENAI_API_KEY || 'false',
   heroku = process.env.heroku || 'false',
   HEROKU = {
-    HEROKU = process.env.HEROKU || 'false',
-    API_KEY = process.env.HEROKU_API_KEY || '',
-    APP_NAME = process.env.HEROKU_APP_NAME || '',
+    HEROKU: process.env.HEROKU || 'false',
+    API_KEY: process.env.HEROKU_API_KEY || '',
+    APP_NAME: process.env.HEROKU_APP_NAME || '',
 },
   VERSION = process.env.VERSION || 'v.0.0.1',
   LANG = process.env.THEME || 'MIRAGE',
