@@ -1,6 +1,5 @@
 const fs = require('fs-extra')
 if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/config.env' });
-git config  --global user.email Miracle32669@outlook.com;
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER ||  2347013159244,
