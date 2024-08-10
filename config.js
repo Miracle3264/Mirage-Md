@@ -38,9 +38,9 @@ global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || '`Hallo👋 Mirage-Md is Ali
 global.autobio = process.env.AUTO_BIO || 'false',
 global.OPENAI_API_KEY = process.env.OPENAI_API_KEY || 'false',
 global.heroku = process.env.heroku || 'false',
-global.HEROKU: process.env.HEROKU || 'false',
-global.API_KEY: process.env.HEROKU_API_KEY || '',
-global.APP_NAME: process.env.HEROKU_APP_NAME || '',
+global.HEROKU = process.env.HEROKU || 'false',
+global.API_KEY = process.env.HEROKU_API_KEY || '',
+global.APP_NAME = process.env.HEROKU_APP_NAME || '',
 global.VERSION = process.env.VERSION || 'v.0.0.1',
 global.LANG = process.env.THEME || 'MIRAGE',
 global.WORKTYPE = process.env.WORKTYPE || 'public'
