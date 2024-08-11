@@ -5,6 +5,7 @@
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
+               "engines" : { "node": "v20.15.0", "npm": "10.8.1" },
    "scripts": {
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name secktor",
                 "stop": "pm2 stop secktor"
